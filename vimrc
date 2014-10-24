@@ -130,7 +130,7 @@ set background=dark
 
 "set gfn=DejaVu\ Sans\ Mono\ 10
 set gfn=DejaVu\ Sans\ Mono\ 9
-set nohls
+"set nohls
 
 filetype plugin on
 set shellslash
