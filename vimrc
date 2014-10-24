@@ -270,3 +270,6 @@ vmap <expr> D DVB_Duplicate()
 nnoremap ; :
 nnoremap : ;
 " ==========================================================
+
+highlight ColorColumn ctermbg=magenta
+call matchadd('ColorColumn', '\%81v', 100)
