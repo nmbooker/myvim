@@ -1,0 +1,8 @@
+The bundle_foreign is for holding bundles we don't want to hard-include
+in the bundle directory.  For example, ones we get via scripts or git
+submodules.
+
+To activate them, make a symlink in the 'bundle' directory.
+
+There's a tutorial on git submodules here:
+ git-scm.com/book/en/Git-Tools-Submodules

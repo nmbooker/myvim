@@ -1,0 +1,7 @@
+*.pyc
+*~
+.*.swp
+vim/cache
+vim/.netrwhist
+vim/bundle
+\#*\#
