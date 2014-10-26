@@ -158,10 +158,6 @@ command GitGui call system("git gui & disown")
 " This launches NERDTree if vim is started without a file to open.
 "autocmd vimenter * if !argc() | NERDTree | endif
 "
-autocmd filetype perl setlocal ts=4 sw=4 sts=4 et ai
-autocmd filetype perl imap <M-,> => 
-autocmd filetype perl imap <M-.> ->
-autocmd filetype perl imap <M-!> #! /usr/bin/env perl
 
 autocmd filetype yaml setlocal ts=2 sw=2 sts=2 et ai
 autocmd filetype yaml setlocal cursorcolumn
