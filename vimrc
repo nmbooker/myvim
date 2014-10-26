@@ -144,72 +144,6 @@ set t_Co=256
 "set t_AB=^[[48;5;%dm
 "set t_AF=^[[38;5;%dm
 
-" Python shortcuts
-" Jump to next <++> placeholder, and optionally edit:
-" DEPRECATED - Use Ctrl+J from imaps.vim instead.
-"  Just jump to it
-   autocmd filetype python map \X /<++>
-"  Replace it
-   autocmd filetype python map \C cf>
-"  Jump to and replace <++> from command mode
-   autocmd filetype python map <F4> \X\C
-"  Jump to and replace <++> in insert mode
-   autocmd filetype python map! <F4> \X\C
-
-" \cs inserts a subclass definition (derived from another class)
-autocmd filetype python map \cs oJclassx 
-" \cc inserts a top-level class definition (derived from 'object')
-autocmd filetype python map \cc oJclass 
-" \mi inserts a method
-autocmd filetype python map \mi oJdefi 
-" \mI inserts an __init__ method
-autocmd filetype python map \mI oJdefI 
-" \fm inserts a function
-autocmd filetype python map \fm oJdefm 
-
-" These abbreviations are probably more natural than the commands above.
-"  defm: Define a module-level function
-"  defi: Define an instance method
-"  defI: Define an __init__ instance method
-"  class: Define a class derived from 'object'.
-"  classx: Define a class extending another class other than 'object'.
-autocmd filetype python abbrev Jdefm def<++>(<++>):"""<++>"""<++>?def^\X\C
-autocmd FileType python abbrev Jdefi def<++>(self<++>):"""<++>"""<++>?def^\X\C
-autocmd filetype python abbrev JdefI def __init__(self<++>):"""<++>"""<++>?def^\X\C
-" autocmd filetype python abbrev class \cc
-autocmd filetype python abbrev Jclass class<++>(object):"""<++>"""<++>?class\X\C
-" autocmd filetype python abbrev classx \cs
-autocmd filetype python abbrev Jclassx class<++>(<++>):"""<++>"""<++>?class\X\C
-
-
-" Ruby shortcuts
-" Jump to next <++> placeholder, and optionally edit:
-" DEPRECATED: Use Ctrl+J from imaps.vim instead.
-"  Just jump to it
-   autocmd filetype ruby map \X /<++>
-"  Replace it
-   autocmd filetype ruby map \C cf>
-""  Jump to and replace <++> from command mode
-"   autocmd filetype ruby map <F4> \X\C
-"  Jump to and replace <++> in insert mode
-"   autocmd filetype ruby map! <F4> \X\C
-
-autocmd FileType ruby map \cc oclass <++>end<<?class\X\C
-autocmd FileType ruby abbrev Jclass classend<<?classA
-autocmd FileType ruby abbrev Jdef defend?defA
-autocmd FileType ruby map \fm odef <++>end<<?def\X\C
-
-" Shell shortcuts
-" Jump to next <++> placeholder, and optionally edit:
-"  Just jump to it
-   autocmd filetype sh map \X /<++>
-"  Replace it
-   autocmd filetype sh map \C cf>
-"  Jump to and replace <++> from command mode
-   autocmd filetype sh map <F4> \X\C
-"  Jump to and replace <++> in insert mode
-   autocmd filetype sh map! <F4> \X\C
-autocmd FileType sh abbrev Jif if<++> ; then<++>fi<++><<?if\X\C
 
 " Command line tools - The following need Conqueterm installed in your .vim
 command Shell ConqueTermSplit bash
