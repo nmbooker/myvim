@@ -176,6 +176,11 @@ vnoremap _( <Esc>`>a)<Esc>`<i(<Esc>
 vnoremap _[ <Esc>`>a]<Esc>`<i[<Esc>
 vnoremap _{ <Esc>`>a}<Esc>`<i{<Esc>
 
+"" http://vim.wikia.com/wiki/Shifting_blocks_visually
+" Keep visual selection open after indenting/unindenting
+vnoremap > >gv
+vnoremap < <gv
+
 
 " Config for Damian Conway's dragvisuals.vim ===============
 vmap <expr> <LEFT>  DVB_Drag('left')
