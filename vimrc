@@ -176,14 +176,6 @@ vnoremap _( <Esc>`>a)<Esc>`<i(<Esc>
 vnoremap _[ <Esc>`>a]<Esc>`<i[<Esc>
 vnoremap _{ <Esc>`>a}<Esc>`<i{<Esc>
 
-"" http://vim.wikia.com/wiki/Simple_placeholders
-" Auto-close brackets on open
-"inoremap ( ()<++><Esc>F)i
-"inoremap [ []<++><Esc>F]i
-"inoremap { {}<++><Esc>F}i
-" C-j to jump to and replace next bit
-"inoremap <c-j> <Esc>/<++><CR><Esc>cf>
-
 
 " Config for Damian Conway's dragvisuals.vim ===============
 vmap <expr> <LEFT>  DVB_Drag('left')
@@ -193,10 +185,6 @@ vmap <expr> <UP>    DVB_Drag('up')
 vmap <expr> D DVB_Duplicate()
 " ==========================================================
 
-"" Swap : and ; from Damian Conway's Instantly Better Vim talk
-"nnoremap ; :
-"nnoremap : ;
-"" ==========================================================
 
 highlight ColorColumn ctermbg=magenta
 call matchadd('ColorColumn', '\%81v', 100)
