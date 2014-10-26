@@ -6,3 +6,9 @@ To activate them, make a symlink in the 'bundle' directory.
 
 There's a tutorial on git submodules here:
  git-scm.com/book/en/Git-Tools-Submodules
+
+
+perl-support is vendored into this directory directly, because checking
+out the latest version at git://github.com/vim-scripts/perl-support.vim.git
+didn't work properly.
+Instead I've copied in a working version from https://github.com/Gimpson/.vim
