@@ -266,10 +266,10 @@ vmap <expr> <UP>    DVB_Drag('up')
 vmap <expr> D DVB_Duplicate()
 " ==========================================================
 
-" Swap : and ; from Damian Conway's Instantly Better Vim talk
-nnoremap ; :
-nnoremap : ;
-" ==========================================================
+"" Swap : and ; from Damian Conway's Instantly Better Vim talk
+"nnoremap ; :
+"nnoremap : ;
+"" ==========================================================
 
 highlight ColorColumn ctermbg=magenta
 call matchadd('ColorColumn', '\%81v', 100)
