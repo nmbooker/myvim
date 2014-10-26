@@ -170,6 +170,8 @@ autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 
 "" http://vim.wikia.com/wiki/Making_Parenthesis_And_Brackets_Handling_Easier
+" Select some text, and use _(, and the selection will be surrounded by
+" parens.  _[ and _{ do the same for square brackets and braces respectively.
 vnoremap _( <Esc>`>a)<Esc>`<i(<Esc>
 vnoremap _[ <Esc>`>a]<Esc>`<i[<Esc>
 vnoremap _{ <Esc>`>a}<Esc>`<i{<Esc>
