@@ -65,6 +65,10 @@ if &t_Co > 2 || has("gui_running")
   set hlsearch
 endif
 
+"" Use X clipboard by default
+" http://stackoverflow.com/questions/8757395/can-vim-use-the-system-clipboards-by-default
+set clipboard=unnamedplus
+
 if has("gui_running")
   " See http://vim.wikia.com/wiki/Hide_toolbar_or_menus_to_see_more_text
   set guioptions-=T
