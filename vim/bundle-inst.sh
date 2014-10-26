@@ -8,7 +8,7 @@ cd bundle
 #git clone git://github.com/rkulla/pydiction.git
 
 git clone https://github.com/scrooloose/syntastic.git
-git clone https://github.com/Shougo/neocomplcache.vim.git
+#git clone https://github.com/Shougo/neocomplcache.vim.git
 git clone https://github.com/eagletmt/neco-ghc.git
 
 #git clone -b nmbooker-cust git@github.com/nmbooker/snipmate.vim.git
