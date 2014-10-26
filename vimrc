@@ -146,12 +146,8 @@ set t_Co=256
 
 
 " Command line tools - The following need Conqueterm installed in your .vim
-command Shell ConqueTermSplit bash
-command Shellv ConqueTermVSplit bash
-" It may seem odd not making this ruby-specific, but I don't want to have
-" to load a Ruby source file specifically to be able to use this.
-command RailsS ConqueTermSplit rails server
-command RailsSV ConqueTermVSplit rails server
+command Shell ConqueTermSplit zsh
+command Shellv ConqueTermVSplit zsh
 " Launch a git gui session in the current working directory.
 command GitGui call system("git gui & disown")
 
