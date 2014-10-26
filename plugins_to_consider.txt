@@ -1,0 +1,8 @@
+https://github.com/Lokaltog/vim-easymotion
+https://github.com/cako/myvim
+nercommenter
+supertab
+vim-markdown
+w3cvalidate
+zen-coding
+
