@@ -68,7 +68,7 @@ endif
 if has("gui_running")
   " See http://vim.wikia.com/wiki/Hide_toolbar_or_menus_to_see_more_text
   set guioptions-=T
-  set guioptions-=m
+  "set guioptions-=m
 
   nnoremap <C-F1> :if &go=~#'m'<Bar>set go-=m<Bar>else<Bar>set go+=m<Bar>endif<CR>
   nnoremap <C-F2> :if &go=~#'T'<Bar>set go-=T<Bar>else<Bar>set go+=T<Bar>endif<CR>
