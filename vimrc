@@ -290,7 +290,7 @@ let g:tex_flavor='latex'
 
 
 " For NERDTree ========================================================
-map <C-n> ;NERDTreeToggle<CR>
+map <C-n> :NERDTreeToggle<CR>
 " =====================================================================
 
 " http://stackoverflow.com/questions/102384/using-vims-tabs-like-buffers
