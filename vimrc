@@ -166,8 +166,6 @@ autocmd filetype perl imap <M-!> #! /usr/bin/env perl
 autocmd filetype yaml setlocal ts=2 sw=2 sts=2 et ai
 autocmd filetype yaml setlocal cursorcolumn
 
-autocmd FileType ruby abbrev <M-,> => 
-
 inoremap <M-o> <C-x><C-o>
 
 let g:pydiction_location = '$HOME/.vim/bundle/pydiction/complete-dict'
