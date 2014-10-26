@@ -287,3 +287,11 @@ set grepprg=grep\ -nH\ $*
 " The following changes the default filetype back to 'tex':
 let g:tex_flavor='latex'
 " =====================================================================
+
+
+" For NERDTree ========================================================
+map <C-n> ;NERDTreeToggle<CR>
+" =====================================================================
+
+" http://stackoverflow.com/questions/102384/using-vims-tabs-like-buffers
+tab sball
