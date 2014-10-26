@@ -15,3 +15,5 @@ git clone https://github.com/eagletmt/neco-ghc.git
 git clone https://github.com/dag/vim2hs.git
 git clone https://github.com/SirVer/ultisnips.git
 git clone https://github.com/honza/vim-snippets.git
+
+git clone https://github.com/scrooloose/nerdtree.git
