@@ -5,3 +5,5 @@ vim/cache
 vim/.netrwhist
 vim/bundle
 \#*\#
+/vim/doc/tags
+/vim/bundle_foreign/*/doc/tags
