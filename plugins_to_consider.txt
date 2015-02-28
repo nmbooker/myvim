@@ -6,3 +6,4 @@ vim-markdown
 w3cvalidate
 zen-coding
 https://github.com/kien/ctrlp.vim
+https://github.com/Raimondi/delimitMate
